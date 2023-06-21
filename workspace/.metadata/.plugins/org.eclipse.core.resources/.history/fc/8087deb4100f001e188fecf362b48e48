@@ -1,0 +1,11 @@
+
+public class Student {
+
+	String name;
+	int rollNo;
+
+	void study() {
+		System.out.println("I m styding");
+	}
+
+}

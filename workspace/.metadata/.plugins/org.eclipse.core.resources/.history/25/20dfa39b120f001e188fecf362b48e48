@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		// How to create object of Student class
+		Student s1 = new Student();
+
+		System.out.println("Hello Java");
+
+	}
+
+}
