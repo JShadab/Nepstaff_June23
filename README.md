@@ -25,7 +25,7 @@ Training material
 	   // body (members)
 			|- Varibles
 			|- Methods
-			|- *Constructors
+			|- Constructors*
 			|- Blocks
 			|- Nested/Inner class
 	 
@@ -384,3 +384,74 @@ f) Arrays are fixed in size.
 	b) <type>[] <var> = {<values>};
 	 
 	 		int[] brr = { 3, 5, 7, 9, 11 };
+			
+# 24-June-2023:
+
+## Methods in Java:
+
+### Syntax:
+
+ <modifier> <returnType> <name> (<parameterList>) <throws>
+	{
+	  // body
+	}
+
+### Example
+	 void sayHello()
+	 {
+		System.out.println("Hello");
+	 }
+
+
+##### In Python:
+
+ class Student
+ {
+		// method
+		def sayHello()
+		{
+			print("Hello")
+		}
+			
+ }
+
+// fumction
+def sayBye()
+		{
+			print("Bye")
+		}
+
+# 27-JUN-2023
+### How to get Values from an array
+
+	a) for(int i =0; i < arr.length; i++)
+			{
+				// body
+			}
+	
+	b)  for(int x : arr)
+		{
+			//body
+		}
+		
+## Method Overloading(Commpile-time | static | early polymorphism)
+	Within a class, we can have two or more methods having same name but different parameter list,
+	is call overloaded methods and this phenomina is called method overloading.
+
+    If names are same:
+		a) Number of parameters
+		b) Data types of parameters
+		c) Order of parameters
+		
+	If everything is same means duplicate methods. -> Compiler Time Error
+
+## Constructor
+	a) Constructors are the special members of a class 
+		which is used to construct initial state of an object.
+	b) Name of the constructor is same as of its class.
+	c) Only access modifiers are allowed.(public | protected | private)
+	d) Its similar to the method but does not return any value.
+	e) Constructor can be called using 'new' operator while object creation.
+	f) We have default constructor(with no parameter) as well as parametrized constructor,
+			so constructor can be overloaded.
+	
