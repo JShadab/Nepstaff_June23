@@ -454,4 +454,57 @@ def sayBye()
 	e) Constructor can be called using 'new' operator while object creation.
 	f) We have default constructor(with no parameter) as well as parametrized constructor,
 			so constructor can be overloaded.
+
+----------------------------------------------------------------------
+## 30-June-2023:
+
+## Access Modifiers
+	a) public
+	b) protected
+	c) private
+	d) default
 	
+  private -> defaut -> protected -> public
+  
+### public
+		Accessible from anywhere.
+
+### protected
+		Accessible with in the package i.e. package must be same.
+		It can be accessible outside the package by using inheritance.
+		
+### default
+		Accessible with in the package i.e. package must be same.
+		
+### private
+		Accessible only within the same class.
+		
+--------------------------------------------------------------------
+# Inheritance
+	a) It is a way of Code-Reusability.
+	b) Java supports single inheritance using classes.
+	c) A class can use extends keyword to mention its parent class.
+	d) If a class does'nt mentioned, its parent class thats means its inherit Object class.
+		java.lang.Object class is a root class in Java.
+	
+
+### Examples
+
+	class A extends Object
+	{
+		//Body
+	}
+------------------------
+    class B extends A
+	{
+		//body
+	}
+	
+## Field Hiding
+	this -> this keyword is used to access same/current class members
+	super -> super keyword is used to access parent class members
+
+## Constructor Chaning:
+	this() -> this call is used to involk anothe constructor of the same class
+	super() -> this call is used to involk parent class constructor
+  

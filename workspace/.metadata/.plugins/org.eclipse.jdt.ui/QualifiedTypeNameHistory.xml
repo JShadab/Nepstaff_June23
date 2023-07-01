@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="Student"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Sample1"/>
+    <fullyQualifiedTypeName name="Calculator"/>
+    <fullyQualifiedTypeName name="p1.Mobile"/>
 </qualifiedTypeNameHistroy>
