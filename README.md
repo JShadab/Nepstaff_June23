@@ -508,3 +508,60 @@ def sayBye()
 	this() -> this call is used to involk anothe constructor of the same class
 	super() -> this call is used to involk parent class constructor
   
+------------------------------------------
+04-July-2023
+=============
+## Abstract method and class
+
+	1. A method without body is declared as abstract method with prefixed abstract
+	2. If a class have one or more abstract method(s), it should be declared as abstract class.
+	3. We cannot create object of abstract class but only extends.
+
+
+# Interfaces in Java
+
+	1. Interface is an user defined data type.
+	2. Its supports multiple inheritance.
+
+### Syntax of the interface:
+
+<modifier> interface <name> <extends> 
+     {
+	   // body (members)
+			|- Constants
+			|- abstract methods
+	 
+	 }
+### Example
+	
+	public interface Foo
+	{
+		int x = 10;
+		
+		void greet();
+	}
+	
+----------------------------
+### Important 
+    a) A class inherits another class using extends keyword
+    a) A class inherits another interface using implements keyword
+    a) An interface inherits another interface using extends keyword
+    a) An interface cannot inherits another class. It is not possible in Java.
+	
+class A
+{}
+-------------
+class B
+{}
+-------------
+interface I
+{}
+-------------
+iterface J
+{}
+
+-------------------------
+class Test1 extends A implements I, J
+{}
+
+interface Test2 extends I
