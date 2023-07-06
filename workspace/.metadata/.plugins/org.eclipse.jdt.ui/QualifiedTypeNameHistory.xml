@@ -9,4 +9,13 @@
     <fullyQualifiedTypeName name="A"/>
     <fullyQualifiedTypeName name="p2.Y"/>
     <fullyQualifiedTypeName name="p3.B"/>
+    <fullyQualifiedTypeName name="p0.C"/>
+    <fullyQualifiedTypeName name="p1.Child_C"/>
+    <fullyQualifiedTypeName name="zoo.Animal"/>
+    <fullyQualifiedTypeName name="zoo.Lion"/>
+    <fullyQualifiedTypeName name="zoo.Cow"/>
+    <fullyQualifiedTypeName name="zoo.Crow"/>
+    <fullyQualifiedTypeName name="zoo.Flyable"/>
+    <fullyQualifiedTypeName name="p2.Parent"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

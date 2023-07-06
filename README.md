@@ -564,4 +564,54 @@ iterface J
 class Test1 extends A implements I, J
 {}
 
-interface Test2 extends I
+-----------------------------------------------
+5 July 2023:
+-------------
+
+## final keyword
+
+	1. final class cannot be inherited.
+	2. final variable cannot reassign.
+	3. final method cannot be overridden.
+
+-----------------------------------------
+6 July 2023:
+
+## Exception Handling:
+
+	a) Syntax Error (compile time errors)
+	b) Exceptions (Runtime errors)
+	
+For Exception handling:
+	a) try-catch-finally
+	b) throw and throws
+
+### try-catch-finally:
+
+  try
+  {
+	// Risky code
+  }
+  catch(Exception e)
+  { // Conditionally execute(if try have any exception)
+	// handling code
+  }
+  finally
+  { 
+	// always execute
+	// cleanup code
+  }
+  
+### Types of Exception
+	
+	a) Unchecked Exception
+	b) Checked Exception
+	
+#### Unchecked Exception
+	 1. Object of Error, RuntimeException and their sub-classes are called unchecked exceptions.
+	 2. Compiler won't check for these exceptions. It will be ignoned by compiler during compilation.
+	 
+#### Checked Exception
+	 1. All other types of exception categorized as checked exception.
+	 2. Compiler will check for checked exceptions, If it is, compiler wont't compile the code
+	 and force developeto handle it by using eiher TRY-CATCH or THROWS keyword.
