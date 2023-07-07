@@ -614,4 +614,38 @@ For Exception handling:
 #### Checked Exception
 	 1. All other types of exception categorized as checked exception.
 	 2. Compiler will check for checked exceptions, If it is, compiler wont't compile the code
-	 and force developeto handle it by using eiher TRY-CATCH or THROWS keyword.
+	 and force developer to handle it by using eiher TRY-CATCH or THROWS keyword.
+	 
+
+#### throw keyword
+	
+	 1) It is used to throw an exception programmatically.
+	 
+----------------------------------------------------
+)7-July-2023
+
+# Fundamental classes
+
+## java.lang.Object class
+		-> Its a root class.
+		1) int hashCode()
+		2) String toString()
+		3) boolean equals(Object)
+		4) Object clone() throws CloneNotSupportedException
+		5) Class getClass()
+		6) void finalize()
+		---Multi-threading---
+		7) void wait()
+		8) void notify()
+        9) void notifyAll()
+		
+### int hashCode()
+		-> Return a hash code value for this object which can be used in the hashed collections(HashSet, HashMap etc.)
+
+### String toString()
+		> Returns a string representation of the object.
+		
+### boolean equals(Object)
+### Object clone() throws CloneNotSupportedException
+### Class getClass()
+### void finalize()	
