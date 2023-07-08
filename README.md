@@ -643,9 +643,24 @@ For Exception handling:
 		-> Return a hash code value for this object which can be used in the hashed collections(HashSet, HashMap etc.)
 
 ### String toString()
-		> Returns a string representation of the object.
+		-> Returns a string representation of the object.
 		
 ### boolean equals(Object)
+		-> To check object equality.
+
 ### Object clone() throws CloneNotSupportedException
+
 ### Class getClass()
+
 ### void finalize()	
+
+---------------------------------------------------
+8 July 2023
+
+## java.lang.String class
+		-> String object represents the character sequence.
+		-> It is immutable/non changble.
+			
+			String s1 = "Abc123#@ papa";
+
+For methods see the code: 

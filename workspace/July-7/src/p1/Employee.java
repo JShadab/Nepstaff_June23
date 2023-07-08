@@ -1,10 +1,11 @@
 package p1;
 
-public class Employee {
+public class Employee implements Cloneable {
 
 	private String name;
 	private int id;
 	private double salary;
+	private String wife;
 
 	public Employee() {
 		// TODO Auto-generated constructor stub
@@ -15,6 +16,14 @@ public class Employee {
 		this.name = name;
 		this.id = id;
 		this.salary = salary;
+	}
+
+	public Employee(int id, String name, double salary, String wife) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.salary = salary;
+		this.wife = wife;
 	}
 
 	public String getName() {
@@ -43,7 +52,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", id=" + id + ", salary=" + salary + "]";
+		return "Employee [name=" + name + ", id=" + id + ", salary=" + salary + ", wife=" + wife + "]";
 	}
 
 	@Override
@@ -55,6 +64,12 @@ public class Employee {
 		boolean z = this.name.equals(emp2.name);
 
 		return x && y && z;
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
 	}
 
 }
