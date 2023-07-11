@@ -660,7 +660,45 @@ For Exception handling:
 ## java.lang.String class
 		-> String object represents the character sequence.
 		-> It is immutable/non changble.
+		
+		-> Strings are constant; their values cannot be changed after theyare created. 
+		   String buffers support mutable strings.
+		   Because String objects are immutable they can be shared. 
 			
 			String s1 = "Abc123#@ papa";
 
 For methods see the code: 
+   XXXXXXXX
+ 
+--------------------------------------------------- 
+ 11 July 2023
+
+## java.lang.StringBuilder and java.lang.StringBuffer class
+		-> StringBuilder/StringBuffer object also represents the character sequence.
+		-> Thsese mutable/changble.
+		-> StringBuffer is thread-safe (it can be used in multi-threaded environment) 
+			but StringBuilder is not a thread-safe
+			
+			StringBuilder s1 = new StringBuilder("Hello");
+			StringBuffer s2 = new StringBuffer("Bye");
+
+For methods see the code: 
+XXXXXXXX
+
+# Wrapper Classes
+
+ Primitive Data Types        Reference Data Type (Warapper)
+	byte							Byte
+	short							Short
+	int								Integer
+	long							Long
+	
+	float							Float
+	double							Double
+	
+	char							Character
+	boolean							Boolean
+	void							Void
+	
+# Collection Framework
+	

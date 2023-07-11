@@ -43,7 +43,7 @@ public class Sample1 {
 
 		System.out.println("Contains: " + name.contains("TECH"));
 
-		s2 = s2.replace('a', '@');
+		s2 = s2.replace('a', 'Z');
 		System.out.println("After replace: " + s2);
 
 	}
