@@ -1,4 +1,4 @@
-# Nepstaff_June23
+# Nepstaff_June23 (20/June/2023 -> 15/July/2023 -> 12/Aug/2023)
 Training material
 
 1. JDK should be installed in our system.
@@ -701,4 +701,15 @@ XXXXXXXX
 	void							Void
 	
 # Collection Framework
+
+## Set
+	a) A collection that contains no duplicate elements.
+	b) HashSet stores elements in RANDOM order.
+	c) TreeSet stores elements in SORTED order.
+	d) LinkedHashSet store elements in INSERTION order.
+	
+## List
+	a) An ordered collection (INSERTION order).
+	b) List can contains DUPLICATE elements
+	
 	
