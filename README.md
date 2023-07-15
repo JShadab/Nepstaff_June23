@@ -712,4 +712,21 @@ XXXXXXXX
 	a) An ordered collection (INSERTION order).
 	b) List can contains DUPLICATE elements
 	
+## Map
+	a) Its a key-value pair like a dictionary
+	b) Keys will be unique, values can be duplicate.
+	
+-----------------------------------------------------------------
+### Sorting
+	
+---------------------------------------------------------------
+15-July-2023:
+----------------
+a) Functional Interface
+b) defaut and static methods in the interface body
+c) Lambda Expression
+d) Stream API
+e) Optional CLass
+f) New Date and Time API
+g) So on .....
 	
