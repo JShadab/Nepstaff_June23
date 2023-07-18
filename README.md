@@ -722,6 +722,8 @@ XXXXXXXX
 ---------------------------------------------------------------
 15-July-2023:
 ----------------
+## Java8 new features:
+
 a) Functional Interface
 b) defaut and static methods in the interface body
 c) Lambda Expression
@@ -729,4 +731,79 @@ d) Stream API
 e) Optional CLass
 f) New Date and Time API
 g) So on .....
-	
+
+18-July-2023:
+----------------
+## JDBC [Java DataBase Connectivity]:
+
+### DBMS
+
+DBMS stands for "Database Management System." It is a software system that allows users to efficiently and securely store, manage, and retrieve data from databases. A database is a structured collection of data that is organized and stored in a way that facilitates easy access and manipulation.
+
+The primary functions of a DBMS include:
+
+Data storage: It manages the physical storage of data on disk or other storage devices, ensuring efficient use of space and access speed.
+
+Data retrieval: The DBMS allows users to retrieve data from the database using queries and provides methods for searching and filtering data.
+
+Data manipulation: It enables users to add, modify, and delete data in the database, maintaining data integrity and consistency.
+
+Data security: DBMS systems offer mechanisms to control access to data and ensure that only authorized users can perform specific operations on the data.
+
+Data concurrency control: When multiple users access the same data simultaneously, the DBMS ensures that transactions are executed in a controlled manner to maintain data consistency.
+
+Data backup and recovery: DBMS systems provide mechanisms to create backups of data to prevent data loss in case of system failures or disasters and facilitate recovery if necessary.
+
+Data integrity enforcement: DBMS systems can enforce rules and constraints on the data to maintain its accuracy and consistency.
+
+There are various types of DBMS, including relational database management systems (RDBMS), object-oriented database management systems (OODBMS), and NoSQL (Not Only SQL) database management systems that cater to specific data storage and retrieval needs.
+
+Some well-known examples of DBMS include MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server, MongoDB, and Cassandra, among others. Each system has its strengths and weaknesses, and the choice of a particular DBMS depends on the specific requirements of the application or organization using it.
+
+#### Types of DBMS
+There are several types of Database Management Systems (DBMS) that cater to different data storage and management needs. Some of the main types of DBMS include:
+
+Relational Database Management System (RDBMS): This type of DBMS is based on the relational model, which organizes data into tables with rows and columns. RDBMS systems use SQL (Structured Query Language) to manipulate and retrieve data. Examples include MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server, and SQLite.
+
+Object-Oriented Database Management System (OODBMS): OODBMS stores data in the form of objects, which are instances of classes or data structures. It combines database and programming language features to handle complex data structures and relationships more naturally. Examples include ObjectDB and ZODB.
+
+NoSQL Database Management System: NoSQL databases are designed to handle unstructured or semi-structured data and offer flexible data models that do not adhere to the traditional relational model. They are suitable for handling large-scale distributed data and are often used for web applications and big data analytics. Examples include MongoDB, Cassandra, Couchbase, and Redis.
+
+Hierarchical Database Management System: This type of DBMS organizes data in a tree-like structure, where each record has a parent-child relationship with other records. Hierarchical databases are efficient for representing one-to-many relationships. Examples include IBM Information Management System (IMS) and Windows Registry.
+
+Network Database Management System: Network DBMS allows for a more complex data structure than the hierarchical model, where records can have multiple parent and child relationships. It is designed for handling many-to-many relationships. Examples include IDMS (Integrated Database Management System) and TurboIMAGE.
+
+Object-Relational Database Management System (ORDBMS): ORDBMS combines elements of both RDBMS and OODBMS, allowing for the storage and manipulation of complex data types through SQL extensions. It bridges the gap between traditional relational databases and object-oriented programming paradigms.
+
+Time-Series Database Management System: This type of DBMS is optimized for storing and querying time-stamped data, making it suitable for applications that involve time-series data, such as IoT sensor data, financial data, and logs. Examples include InfluxDB and TimescaleDB.
+
+Graph Database Management System: Graph DBMS stores data in the form of nodes and edges, representing complex relationships between entities. It excels at handling interconnected data and is commonly used for social networks, recommendation engines, and knowledge graphs. Examples include Neo4j and Amazon Neptune.
+
+Each type of DBMS has its own strengths and weaknesses, and the choice of a specific type depends on the requirements and characteristics of the data and the application being developed.
+
+
+### SQL
+
+#### insert query
+INSERT INTO nepstaff_db.employee (id, name, salary) VALUES (103, 'Musa', 123.25);
+
+#### insert query
+SELECT * FROM nepstaff_db.employee;
+
+#### update query
+UPDATE nepstaff_db.employee SET name='Suresh Ji' , salary=500 WHERE id=102;
+
+#### delete query
+DELETE FROM nepstaff_db.employee WHERE id =103;
+
+
+
+
+
+
+
+
+
+
+
+
