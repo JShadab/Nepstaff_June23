@@ -9,14 +9,7 @@ public class SelectDemo {
 
 	public static void main(String[] args) throws Exception {
 
-		// Step#1. Load the Driver class
-		Class.forName("com.mysql.cj.jdbc.Driver");
-
-		// Step#2. Establish the connection with the DB
-		String url = "jdbc:mysql://localhost:3306/nepstaff_db";
-		String username = "root";
-		String password = "root";
-		Connection conn = DriverManager.getConnection(url, username, password);
+		
 
 		// Step#3. Write SQL queries
 		String sql = "SELECT * FROM employee";
