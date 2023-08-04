@@ -796,6 +796,17 @@ UPDATE nepstaff_db.employee SET name='Suresh Ji' , salary=500 WHERE id=102;
 #### delete query
 DELETE FROM nepstaff_db.employee WHERE id =103;
 
+-----------------------------------------------------
+## Angular
+
+	npm install -g typescript
+	tsc --version
+	
+	npm install -g @angular/cli
+	
+	ng new demo-app
+	ng serve -o
+
 
 
 

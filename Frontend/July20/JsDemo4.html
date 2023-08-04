@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS demo 4</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <script>
+
+        function add() {
+
+            const s1 = document.getElementById('first').value; // string
+            const s2 = document.getElementById('second').value; // string
+
+            const a = parseInt(s1); // number
+            const b = Number(s2); // number
+
+            // alert(a + b)
+
+            document.getElementById('result').value = a + b
+
+        }
+        function sub() {
+
+            const s1 = document.getElementById('first').value; // string
+            const s2 = document.getElementById('second').value; // string
+
+            // alert(s1 - s2)
+            document.getElementById('result').value = s1 - s2
+
+        }
+        function multi() {
+
+            const s1 = document.getElementById('first').value; // string
+            const s2 = document.getElementById('second').value; // string
+
+           // alert(s1 * s2)
+           document.getElementById('result').value = s1 * s2
+
+        }
+        function division() {
+
+            const s1 = document.getElementById('first').value; // string
+            const s2 = document.getElementById('second').value; // string
+
+           // alert(s1 / s2)
+           document.getElementById('result').value = s1 / s2
+
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container" style="margin-top: 5%; width: 40%;">
+
+        First Number : <input type="text" id="first" class="form-control">
+        Second Number : <input type="text" id="second" class="form-control">
+        Result : <input type="text" id="result" class="form-control">
+        <br>
+
+        <input type="button" value="Addtion" onclick="add()" class="btn btn-primary">
+        <input type="button" value="Subtraction" onclick="sub()" class="btn btn-warning">
+        <input type="button" value="Multiplication" onclick="multi()" class="btn btn-success">
+        <input type="button" value="Division" onclick="division()" class="btn btn-danger">
+
+
+
+    </div>
+</body>
+
+</html>
